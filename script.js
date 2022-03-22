@@ -3,7 +3,7 @@ function Converter() {
   var valor = valorElemento.value;
   var valorEmDolarNumerico = parseFloat(valor);
 
-  var valorEmReal = valorEmDolarNumerico * 5.04;
+  var valorEmReal = valorEmDolarNumerico * 4.94;
   var valorEmRealFixado = valorEmReal.toFixed(2);
   console.log(valorEmReal);
 
@@ -49,7 +49,7 @@ function ConverterLibra() {
   var valorElementoLibra = document.getElementById("valor");
   var valorLibra = valorElementoLibra.value;
   var valorLibraNumerico = parseFloat(valorLibra);
-  var valorEmLibra = valorLibraNumerico * 0.76;
+  var valorEmLibra = valorLibraNumerico * 0.75;
   var valorEmLibraFixado = valorEmLibra.toFixed(2);
 
   var elementoValorConvertidoLibra = document.getElementById("valorConvertido");
